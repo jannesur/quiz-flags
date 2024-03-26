@@ -1,0 +1,23 @@
+spring:
+  h2:
+    console:
+      enabled: true
+  application:
+    name: Quiz_App
+  datasource:
+    url: jdbc:h2:mem:quizApp
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    show-sql: true
+    hibernate.ddl-auto: create
+    defer-datasource-initialization: true
+  sql:
+    init:
+      mode: always
+
+# logging:
+#   level:
+#     root: DEBUG
