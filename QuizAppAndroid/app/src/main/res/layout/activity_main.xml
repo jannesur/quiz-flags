@@ -109,6 +109,7 @@
                 android:text="reset Coins"
                 android:textSize="30dp" />
 
+
         </FrameLayout>
     </LinearLayout>
 
