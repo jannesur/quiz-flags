@@ -9,10 +9,17 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="430dp"
         android:orientation="vertical"
-        android:padding="24dp">
+        android:padding="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -24,6 +31,7 @@
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:padding="14dp"
+                app:srcCompat="@drawable/green_background"
                 tools:srcCompat="@tools:sample/avatars" />
 
             <TextView
@@ -52,6 +60,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    app:srcCompat="@android:drawable/btn_star_big_on"
                     tools:srcCompat="@android:drawable/btn_star_big_on" />
 
                 <TextView
@@ -84,23 +93,24 @@
             android:layout_gravity="center_vertical">
 
 
+            <Button
+                android:id="@+id/startNewGameButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Start new Game"
+                android:textSize="30dp" />
 
-        <Button
-            android:id="@+id/startNewGameButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Start new Game"
-            android:padding="14dp"
-            android:textSize="30dp"/>
+            <Button
+                android:id="@+id/resetPointsButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="reset Coins"
+                android:textSize="30dp" />
 
-        <Button
-            android:id="@+id/resetPointsButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="reset Coins"
-            android:padding="14dp"
-            android:textSize="30dp"/>
-
+        </FrameLayout>
     </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

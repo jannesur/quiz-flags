@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="flagImageView" type="id">flagImage</item>
+    <item name="optionButton1" type="id">optionButton1</item>
+    <item name="optionButton2" type="id">optionButton2</item>
+    <item name="optionButton3" type="id">optionButton3</item>
+    <item name="optionButton4" type="id">optionButton4</item>
+</resources>
