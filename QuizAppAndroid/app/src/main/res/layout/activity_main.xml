@@ -89,8 +89,8 @@
 
         <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_gravity="center_vertical">
+            android:layout_height="50sp"
+            android:layout_gravity="center_vertical" />
 
 
             <Button
@@ -110,8 +110,8 @@
                 android:textSize="30dp" />
 
 
-        </FrameLayout>
     </LinearLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
